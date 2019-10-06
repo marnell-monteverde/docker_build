@@ -1,0 +1,6 @@
+version: '3'
+services:
+        check:
+                image: sample-python:latest
+                volumes:
+                        - .:/app
